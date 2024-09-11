@@ -77,14 +77,14 @@ class _InsubcateState extends State<Insubcate> {
       appBar: AppBar(
         title: Row(
           children: [
-            IconButton(
-              icon: const Icon(Icons.arrow_back),
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-            ),
+            // IconButton(
+            //   icon: const Icon(Icons.arrow_back),
+            //   onPressed: () {
+            //     Navigator.of(context).pop();
+            //   },
+            // ),
             const SizedBox(width: 8),
-            Text(widget.title, // Use the title parameter here
+            Text(widget.title,
                 style: GoogleFonts.poppins(
                   textStyle: const TextStyle(
                     fontSize: 18,
