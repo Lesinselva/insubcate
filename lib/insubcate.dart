@@ -150,7 +150,7 @@ class _InsubcateState extends State<Insubcate> {
                           firstFieldController: firstFieldController,
                           secondFieldController: secondFieldController,
                           maxLength: 100,
-                          titleBackgroundColor: const Color(0x7704938D),
+                          titleBackgroundColor: const Color(0xFF04938D),
                           secondButtonIconColor: const Color(0xFFFF1C1C),
                           firstButtonIcon: Icons.check,
                           secondButtonIcon: Icons.close,
