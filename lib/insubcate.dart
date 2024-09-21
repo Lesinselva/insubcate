@@ -10,11 +10,13 @@ import 'package:flutter_svg/svg.dart';
 class Insubcate extends StatefulWidget {
   final Color color;
   final String title;
+  final Color scaffoldColor;
 
   const Insubcate({
     super.key,
     required this.color,
     required this.title,
+    required this.scaffoldColor,
   });
 
   @override
@@ -37,7 +39,7 @@ class _InsubcateState extends State<Insubcate> {
       String title, String price, BuildContext context) {
     return Column(
       children: [
-        GestureDetector(
+        InkWell(
           onTap: () {
             Navigator.push(
               context,
@@ -74,6 +76,7 @@ class _InsubcateState extends State<Insubcate> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: widget.scaffoldColor,
       appBar: AppBar(
         title: Row(
           children: [
